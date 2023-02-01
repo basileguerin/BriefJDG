@@ -1,0 +1,7 @@
+Mise a jour du nom du pokemon "Darty Papa" :
+
+collection.update_one({"name" : "Darty Papa"}, {"$set" : {"name" : "Darty Papy"}})
+
+Suppression du pokemon "Darty Papy" : 
+
+collection.delete_one({"name" : "Darty Papy"})
